@@ -1,7 +1,7 @@
 {
-  "name": "access-api",
+  "name": "skeleton-api",
   "version": "1.0.0",
-  "description": "A school project to simulate football competitions",
+  "description": "A skeleton api",
   "main": "index.ts",
   "scripts": {
     "test": "ts-mocha 'src/test/*.ts' -p tsconfig.json --timeout 30000 --exit",
@@ -9,37 +9,22 @@
     "build": "npx tsc",
     "start": "node build/index.js"
   },
-  "author": "Tess & Rémi",
+  "author": "skeleton",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "luxon": "^3.4.3",
-    "mysql2": "^3.6.5",
-    "node-cron": "^3.0.3",
-    "nodemailer": "^6.9.4",
-    "pdf-lib": "^1.17.1",
-    "qrcode": "^1.5.3",
-    "typeorm": "^0.3.17",
-    "xlsx": "^0.18.5"
+    "luxon": "^3.4.3"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.11",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.20",
     "@types/jsonwebtoken": "^9.0.4",
     "@types/luxon": "^3.3.3",
-    "@types/mocha": "^10.0.6",
     "@types/node": "^20.8.7",
     "@types/node-cron": "^3.0.11",
-    "@types/nodemailer": "^6.4.9",
-    "@types/qrcode": "^1.5.4",
-    "chai": "^4.3.10",
-    "chai-http": "^4.4.0",
-    "mocha": "^10.2.0",
-    "ts-mocha": "^10.0.0",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
