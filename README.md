@@ -14,4 +14,4 @@ Ce projet est un squelette d'API Express prêt à l'emploi, avec deux branches p
 1. Cloner le dépôt :
 
    ```bash
-   git clone https://github.com/VotreUtilisateur/SKELETON-API.git
+   git clone https://github.com/remicrobe/SKELETON-API.git
